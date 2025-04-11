@@ -1,0 +1,152 @@
+/* Tipografía general */
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+  /* Header */
+.titulo {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+  /* Cards de productos */
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+  /* Footer */
+footer {
+    font-size: 15px;
+    color: #555;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #27ae60;
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+/* Seccion de Ubicacion */
+
+.ubicacion-section {
+    background-color: #f9f9f9;
+}
+
+.ubicacion-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+}
+
+.ubicacion-section p {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.mapa-ubicacion iframe {
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Sección de contacto */
+.contacto-section {
+    background-color: #f2f2f2;
+}
+
+.contacto-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contacto-section p {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contacto-section .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.contacto-section .form-control:focus {
+    border-color: #27ae60;
+    box-shadow: 0 0 0 0.2rem rgba(39, 174, 96, 0.25);
+}
+
+.contacto-section .btn-success {
+    background-color: #27ae60;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contacto-section .btn-success:hover {
+    background-color: #219150;
+}
+
+/* Sección de productos */
+.productos-section {
+    background-color: #f9f9f9;
+  }
+  
+  .productos-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .precio {
+    font-size: 18px;
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #2980b9;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1f6391;
+  }
+  
