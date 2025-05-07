@@ -1,6 +1,8 @@
 /* Tipografía general */
 body {
     font-family: 'Segoe UI', sans-serif;
+    background: #0f081a;
+    background: linear-gradient(90deg, rgba(15, 8, 26, 1) 0%, rgba(0, 18, 92, 1) 66%, rgba(5, 0, 0, 1) 100%);
 }
 
   /* Header */
@@ -24,12 +26,6 @@ body {
 .card-text {
     color: #27ae60;
     font-weight: bold;
-}
-
-  /* Footer */
-footer {
-    font-size: 15px;
-    color: #555;
 }
 
 /* Navbar */
@@ -121,32 +117,118 @@ footer {
 /* Sección de productos */
 .productos-section {
     background-color: #f9f9f9;
-  }
-  
-  .productos-section h2 {
+}
+
+.productos-section h2 {
     font-size: 32px;
     font-weight: bold;
     color: #333;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 8px;
-  }
-  
-  .precio {
+}
+
+.precio {
     font-size: 18px;
     color: #27ae60;
     font-weight: bold;
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
     background-color: #2980b9;
     border: none;
-  }
-  
-  .btn-primary:hover {
+}
+
+.btn-primary:hover {
     background-color: #1f6391;
-  }
-  
+}
+
+  /* Footer */
+.footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.footer__section {
+    flex: 1 1 250px;
+}
+
+.footer__section h3 {
+    color: #4fc3f7;
+    margin-bottom: 1rem;
+}
+
+.footer__section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.footer__section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer__section ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer__section ul li a:hover {
+    color: #80d8ff;
+}
+
+.footer__social a {
+    margin-right: 1rem;
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+    color: #80d8ff;
+}
+
+.footer__bottom {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 0.85rem;
+    border-top: 1px solid #2e2e2e;
+    margin-top: 2rem;
+}
+
+  /* 🌐 Responsive Design */
+@media (max-width: 768px) {
+.footer__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__section {
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+
+.footer__social a {
+    margin: 0 0.5rem;
+    }
+}
